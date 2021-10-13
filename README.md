@@ -25,3 +25,7 @@ Ces tests sont directement intégrés au répertoire du code, car ils testent di
 ![](image.png)
 
 De la même manière, une version est présente dans le répertoire, et une version étendue est présente sur l'outil et pour les jurés, pour exclure les retours en dur dans le code. Ces deux versions incluent les fonctions présentes de base dans le fichier, d'où l'importance de ne pas changer leur nom !
+
+## Tests par navigateur headless (utilisant Cypress)
+Ces tests permettront d'évaluer des tâches HTML/CSS du speed-module, notamment par le biais de fonctions du type `cy.get(mainMenu).should('have.css', 'height', '500px')` voire de la comparaison de screenshots.
+TODO: mettre des exemples dans ce repo
