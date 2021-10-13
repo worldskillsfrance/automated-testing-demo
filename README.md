@@ -28,4 +28,5 @@ De la même manière, une version est présente dans le répertoire, et une vers
 
 ## Tests par navigateur headless (utilisant Cypress)
 Ces tests permettront d'évaluer des tâches HTML/CSS du speed-module, notamment par le biais de fonctions du type `cy.get(mainMenu).should('have.css', 'height', '500px')` voire de la comparaison de screenshots.
+![](https://miro.medium.com/max/1400/0*ckM24GNp_o-BRfGp.png)
 TODO: mettre des exemples dans ce repo
